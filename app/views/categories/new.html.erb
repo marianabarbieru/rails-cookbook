@@ -1,0 +1,9 @@
+<div class="form-new mt-5">
+  <h1>Create a new Category</h1>
+
+  <%= simple_form_for @category do |f| %>
+  <%= f.input :name, placeholder: "The category name...." %>
+  <%= f.submit class: "btn btn-info" %>
+  <% end %>
+
+</div>
